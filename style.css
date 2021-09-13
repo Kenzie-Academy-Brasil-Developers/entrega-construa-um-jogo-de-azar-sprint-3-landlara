@@ -177,7 +177,7 @@ footer p {
 
 @media only screen and (min-width: 800px) {
     html {
-        background-size: 750px;
+        background-size: cover;
     }
     .reset {
         position: fixed;
@@ -186,17 +186,25 @@ footer p {
     .space {
         position: fixed;
         top: -5vh;
-        left: 45vw;
+        left: 47vw;
     }
     footer p {
-        left: 38%;
+        left: 44%;
     }
     .bot {
-        right: 23%;
-        bottom: 60%;
+        right: 30%;
+        bottom: 50%;
     }
     .bonito {
         right: 65%;
-        bottom: 60%;
+        bottom: 50%;
+    }
+    .textToPlay {
+        font-size: 36px;
+        margin-top: 20px;
+        color: rgb(255, 68, 0);
+    }
+    main h1 {
+        font-size: 76px;
     }
 }
