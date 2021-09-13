@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b3b307a42f.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="main" id="main">
+            <h1>Pedra, papel ou tesoura</h1>
+            <div class="textToPlay">
+                <p>Confia em si mesmo? Entao bora la!</p>
+                <p>Escolha com sabedoria e simbora!!</p>
+            </div>
+            <div class="ondeFica" id="player">
+
+            </div>
+
+            <div class="space">
+                <div class="pedPapTes" id="visual">
+                    <div class="rock" id="rock"><i class="fas fa-hand-rock fa-4x"></i></div>
+                    <div class="paper" id="paper"><i class="fas fa-hand-paper fa-4x"></i></div>
+                    <div class="scissor" id="scissor"><i class="fas fa-hand-scissors fa-4x"></i></div>
+                </div>
+            </div>
+            <div class="playDiv" id="playDiv">
+                <input type="button" value="Jogar Novamente" class="reset hide" id="reset">
+                <input class="play" id="play" type="button" value="Como jogar">
+            </div>    
+        </div>    
+        <div class="aprender hide" id="aprenderJogar">  
+            <h3>Regras</h3>
+            <button class="fechar" id="fechar">X</button>
+            <div class="paragrafos">    
+                <p>Pedra quebra a tesoura</p>
+                <p>Tesoura corta o papel..</p>
+                <p>Papel sufoca a Pedra...</p>      
+                <p class="teste">Bem facil nao? Agora lhe pergunto, acha que esta preparado para me enfrentar?</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Created by Lucas Lara - Kenzie Dev</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
