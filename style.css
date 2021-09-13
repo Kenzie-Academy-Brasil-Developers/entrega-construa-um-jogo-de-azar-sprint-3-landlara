@@ -142,6 +142,37 @@ footer p {
 .hide {
     display: none;
 }
+.bonito {
+    color: green;
+    position: absolute;
+    right: 65%;
+    bottom: 52%;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+.bot {
+    color: red;
+    position: absolute;
+    right: 5%;
+    bottom: 52%;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+.derrota, .vitoria, .empate {
+    font-size: 22px;
+    color: red;
+    text-align: center;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.vitoria {
+    color: green;
+}
+.empate {
+    color: yellow;
+}
 
 
 @media only screen and (min-width: 800px) {
@@ -154,11 +185,18 @@ footer p {
     }
     .space {
         position: fixed;
-        top: -10%;
-        left: 45%;
+        top: -5vh;
+        left: 45vw;
     }
     footer p {
-        left: 40%;
+        left: 38%;
     }
-    
+    .bot {
+        right: 23%;
+        bottom: 60%;
+    }
+    .bonito {
+        right: 65%;
+        bottom: 60%;
+    }
 }
